@@ -6,7 +6,8 @@ def main():
 def list_all():
     all_countries = list(pycountry.countries)
     for country_no in range(0, len(all_countries)):
-        print(str(all_countries[country_no]))
+        found_country = all_countries[country_no]
+        print("{}, {}" .format(found_country.alpha_2, found_country.name))
 
 
 if __name__=="__main__":
