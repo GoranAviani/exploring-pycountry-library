@@ -20,11 +20,7 @@ def searching_by_alpha_2(alpha_2_code):
     else:
         print(country_info.name)
 
-def main():
-    list_all()
-    list_all_historic_countries()
-    searching_by_alpha_2("1SE")
-    searching_by_codes("SWE")
+
 
 def list_all_historic_countries():
     all_countries = list(pycountry.historic_countries)
@@ -38,6 +34,3 @@ def list_all():
         found_country = all_countries[country_no]
         print("{}, {}" .format(found_country.alpha_2, found_country.name))
 
-
-if __name__=="__main__":
-    main()
