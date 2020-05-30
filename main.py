@@ -2,7 +2,7 @@ from list_all_countries import (
     list_all,
     list_all_historic_countries,
 )
-from search_countries import (
+from searching_countries import (
     searching_by_alpha_2,
     searching_by_alpha_codes
 )

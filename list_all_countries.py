@@ -1,3 +1,4 @@
+import pycountry
 
 def list_all_historic_countries():
     all_countries = list(pycountry.historic_countries)

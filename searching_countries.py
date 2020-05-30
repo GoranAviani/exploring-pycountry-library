@@ -1,6 +1,6 @@
 import pycountry
 
-def searching_by_codes(code):
+def searching_by_alpha_codes(code):
 
     code_length = len(code)
     if code_length == 2:
