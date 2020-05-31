@@ -9,11 +9,18 @@ from searching_countries import (
 
 from currency import list_all_currencies, searching_by_alpha_3
 
+from searching_subdivisions import (
+    search_by_subdivision
+)
+
 def main():
     list_all()
     list_all_historic_countries()
     searching_by_alpha_2("1SE")
     searching_by_alpha_codes("SWE")
+    search_by_subdivision("England")
+    search_by_subdivision("Cote")
+
 
     list_all_currencies()
     searching_by_alpha_3("HRK")
