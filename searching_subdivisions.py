@@ -13,4 +13,4 @@ def search_by_subdivision(subdivision):
     """
     country_info = pycountry.countries.search_fuzzy(subdivision)
     for country in country_info:
-        print(str(country))
+        print("{}, {},{}" .format(country.alpha_2, country.name, country.official_name))
