@@ -12,4 +12,5 @@ def search_by_subdivision(subdivision):
     :return: n/a
     """
     country_info = pycountry.countries.search_fuzzy(subdivision)
-    print(str(country_info))
+    for country in country_info:
+        print(str(country))

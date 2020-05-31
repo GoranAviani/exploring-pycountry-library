@@ -18,6 +18,8 @@ def main():
     searching_by_alpha_2("1SE")
     searching_by_alpha_codes("SWE")
     search_by_subdivision("England")
+    search_by_subdivision("Cote")
+
 
 if __name__=="__main__":
     main()
