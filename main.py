@@ -7,12 +7,15 @@ from searching_countries import (
     searching_by_alpha_codes
 )
 
+from currency import list_all_currencies
 
 def main():
     list_all()
     list_all_historic_countries()
     searching_by_alpha_2("1SE")
     searching_by_alpha_codes("SWE")
+
+    list_all_currencies()
 
 if __name__=="__main__":
     main()
