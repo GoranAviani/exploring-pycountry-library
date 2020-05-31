@@ -29,5 +29,7 @@ def main():
 
     list_all_languages()
     search_by_name("English")
+    search_by_name("Klingon")
+    search_by_name("Gibberish")
 if __name__=="__main__":
     main()
