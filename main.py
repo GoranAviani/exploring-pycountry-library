@@ -7,7 +7,7 @@ from searching_countries import (
     searching_by_alpha_codes
 )
 
-from currency import list_all_currencies
+from currency import list_all_currencies, searching_by_alpha_3
 
 def main():
     list_all()
@@ -16,6 +16,7 @@ def main():
     searching_by_alpha_codes("SWE")
 
     list_all_currencies()
+    searching_by_alpha_3("HRK")
 
 if __name__=="__main__":
     main()
