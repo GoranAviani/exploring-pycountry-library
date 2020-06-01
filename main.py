@@ -35,6 +35,6 @@ def main():
     search_by_name("Gibberish")
 
     lookup_a_country("de")
-    
+
 if __name__=="__main__":
     main()
