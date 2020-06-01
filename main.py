@@ -7,7 +7,7 @@ from searching_countries import (
     searching_by_alpha_codes
 )
 
-from lookups import lookup_a_country
+from lookups import lookup_a_country, lookup_a_language
 
 from currency import list_all_currencies, searching_by_alpha_3
 
@@ -35,6 +35,7 @@ def main():
     search_by_name("Gibberish")
 
     lookup_a_country("de")
+    lookup_a_language("de")
 
 if __name__=="__main__":
     main()
